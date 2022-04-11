@@ -43,5 +43,12 @@ public class Bookmark {
         return
         String.format("Bookmark: %s\nUrl´s:\n%s\nTag´s:\n%s\n",nome,url,tag);
     }
-    
+
+    public void adicionarTag(String tags){
+        tag.add(tags);
+    }
+
+    public void adicionarUrl(String urls){
+           
+    }
 }
