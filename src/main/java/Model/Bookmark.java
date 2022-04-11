@@ -49,6 +49,6 @@ public class Bookmark {
     }
 
     public void adicionarUrl(String urls){
-           
+           url.add(urls);
     }
 }
